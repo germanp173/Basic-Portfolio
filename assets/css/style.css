@@ -1,0 +1,33 @@
+/* Style for all elements */
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+
+}
+
+header {
+    padding: 20px;
+    background: lightblue;
+    overflow: auto;
+}
+
+section {
+    clear: both
+}
+
+/* Menu Style */
+.menu {
+    float: right
+}
+
+.menu>button {
+    float: both
+}
+
+.name {
+    float: left;
+    background: #4aaaa5;
+}
