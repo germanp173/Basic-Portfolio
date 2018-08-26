@@ -8,8 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Reset browser default styles -->
     <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-    <!-- Link style sheet -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Link style sheets -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
 </head>
 
 <body>
@@ -29,7 +30,15 @@
 
             <h1>Contact</h1>
             <hr>
-            
+            <form id="contact-form">
+                Name<br>
+                <input type="text" min="0" maxlength="50"><br>
+                Email<br>
+                <input type="text" maxlength="100"><br>
+                Message<br>
+                <textarea id="contact-message" type="text" maxlength="500"></textarea>
+                <input id="submit-button" type="button" value="Submit">
+            </form>
             
         </div>
     </section>
