@@ -1,6 +1,6 @@
 input {
     padding: 1%;
-    display: table;    
+    display: table;
 }
 
 #contact-form * {
@@ -25,4 +25,8 @@ input {
     padding-bottom: 10px;
     background: #4aaaa5;
     color: white;
+}
+
+#submit-button:hover {
+    background: #666666;
 }

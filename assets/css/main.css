@@ -44,6 +44,10 @@ header {
     text-decoration-line: none;
 }
 
+.buttonLink:hover{
+    color: black;
+}
+
 /* END */
 
 /* BODY STYLE */
@@ -57,7 +61,8 @@ section {
 }
 
 .content-container {
-    padding: 35px;    
+    padding: 35px; 
+    overflow: auto;    
 }
 
 h1 {
@@ -87,6 +92,7 @@ p {
 footer {
     padding-top: 35px;
     padding-bottom: 5px;
+    border-top: 5px solid #4aaaa5;
     background: #666666;
     position: fixed;
     left: 0;
@@ -97,6 +103,7 @@ footer {
 
 footer * {
     color: white;
+    font-size: 10pt;
 }
 
 /* End */
